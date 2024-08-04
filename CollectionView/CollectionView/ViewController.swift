@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController{
 var myNAME = "rESHMA"
+    var myName = "reh"
     @IBOutlet weak var homeCollectionView: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
