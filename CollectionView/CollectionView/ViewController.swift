@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController{
-
+var myNAME = "rESHMA"
     @IBOutlet weak var homeCollectionView: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +21,7 @@ class ViewController: UIViewController{
 
 }
 extension ViewController: UICollectionViewDelegate{
-    
+
 }
 extension ViewController: UICollectionViewDataSource{
     func numberOfSections(in collectionView: UICollectionView) -> Int {
